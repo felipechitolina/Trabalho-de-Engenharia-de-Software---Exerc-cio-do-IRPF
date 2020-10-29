@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1604007443 source:c:\users\felip\desktop\felipe\pucrs\engenharia de software\trabalho-de-engenharia-de-software---exerc-cio-do-irpf\calculo do imposto\main.c
+	<stdio.h>
+	<stdlib.h>
+
