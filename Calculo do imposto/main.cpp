@@ -2,8 +2,8 @@
 
 int main(){
 char nome[50];
-    int i = 0,cpf = 0, idade = 0, ND = 0, CPO = 0, TR = 0;
-    int dec_simp = 0, dec_comp = 0, temp = 0;
+    int i = 0,cpf = 0, idade = 0, ND = 0, temp = 0;
+    int dec_simp = 0, dec_comp = 0, CPO = 0, TR = 0;
 
     while(i == 0){
     cout <<"Ola, neste software voce ira ter informacoes sobre o imposto de renda, entre declaracao simplificada ou Completa.\nPara isso, sera necessario nos algumas informacoes, sao elas:";

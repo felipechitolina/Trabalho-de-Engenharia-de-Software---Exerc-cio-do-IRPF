@@ -23,10 +23,10 @@ REQUIRE( declaracao_simplificada(30000,2000) == 2905 );
 REQUIRE( declaracao_simplificada(7500,2000) == 0 );
 }
 
-
+//int declaracao_completa(int total_rend, int prev, int idade, int dependentes)
 TEST_CASE( "Declaracao Completa are computed", "[factorial]" ) {
-REQUIRE( declaracao_completa(15000,200,22,2) == 375.6 );
+REQUIRE( declaracao_completa(15000,200,22,2) == 375 );
 REQUIRE( declaracao_completa(1500,10,40,3) == 0 );
-REQUIRE( declaracao_completa(30000,2000,65,0) == 0 );
-REQUIRE( declaracao_completa(25500,2000,25,3) == 1548.75 );
+REQUIRE( declaracao_completa(30000,2000,65,0) ==  3143 );
+REQUIRE( declaracao_completa(25500,2000,25,3) == 1601 );
 }
